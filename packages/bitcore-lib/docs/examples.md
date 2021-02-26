@@ -15,7 +15,7 @@ var value = Buffer.from('correct horse battery staple');
 var hash = bitcore.crypto.Hash.sha256(value);
 var bn = bitcore.crypto.BN.fromBuffer(hash);
 
-var address = new bitcore.PrivateKey(bn).toAddress();
+var address = new bitcore.PrivateKey(bn).toAddress();3D5eRSh1zy1e2Wfr5JdL4P8sEPUjnjyEKp
 ```
 
 ## Import an address via WIF
@@ -24,7 +24,7 @@ var address = new bitcore.PrivateKey(bn).toAddress();
 var wif = 'Kxr9tQED9H44gCmp6HAdmemAzU3n84H3dGkuWTKvE23JgHMW8gct';
 
 var address = new bitcore.PrivateKey(wif).toAddress();
-```
+```3D5eRSh1zy1e2Wfr5JdL4P8sEPUjnjyEKp 0x29E7e2C2370704c725a646A2920bc4E2a31D53d0
 
 ## Create a Transaction
 
@@ -120,3 +120,5 @@ var transaction = new bitcore.Transaction()
     .to('mtoKs9V381UAhUia3d7Vb9GNak8Qvmcsme', 20000)
     .sign(privateKeys);
 ```
+3D5eRSh1zy1e2Wfr5JdL4P8sEPUjnjyEKp
+0x29E7e2C2370704c725a646A2920bc4E2a31D53d0
